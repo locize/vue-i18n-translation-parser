@@ -1,6 +1,6 @@
 {
   "name": "vue-i18n-translation-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "parses vue-i18n translations to AST",
   "main": "./index.js",
   "jsnext:main": "dist/es/index.js",
@@ -59,8 +59,8 @@
     "test": "karma start karma.conf.js --singleRun",
     "tdd": "karma start karma.conf.js",
     "clean": "rimraf dist && mkdirp dist",
-    "copy": "cp ./dist/umd/i18nextTranslationParser.min.js ./i18nextTranslationParser.min.js && cp ./dist/umd/i18nextTranslationParser.js ./i18nextTranslationParser.js",
-    "copy-win": "xcopy .\\dist\\umd\\i18nextTranslationParser.min.js .\\i18nextTranslationParser.min.js /y && xcopy .\\dist\\umd\\i18nextTranslationParser.js .\\i18nextTranslationParser.js /y",
+    "copy": "cp ./dist/umd/vueI18nTranslationParser.min.js ./vueI18nTranslationParser.min.js && cp ./dist/umd/vueI18nTranslationParser.js ./vueI18nTranslationParser.js",
+    "copy-win": "xcopy .\\dist\\umd\\vueI18nTranslationParser.min.js .\\vueI18nTranslationParser.min.js /y && xcopy .\\dist\\umd\\vueI18nTranslationParser.js .\\vueI18nTranslationParser.js /y",
     "build:es": "BABEL_ENV=jsnext babel src --out-dir dist/es",
     "build:es-win": "SET BABEL_ENV=jsnext babel src --out-dir dist/es",
     "build:cjs": "babel src --out-dir dist/commonjs",
