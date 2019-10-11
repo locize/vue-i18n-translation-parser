@@ -10,7 +10,8 @@ describe('vue-i18n translation parser', () => {
 
    var tests = [
      {args: ['test'], expected: 'test'},
-     {args: ['<div>test</div>'], expected: '<div>test</div>'}
+     {args: ['<div>test</div>'], expected: '<div>test</div>'},
+     {args: ['<p>test</p>\n<p>test</p>'], expected: '<p>test</p>\n<p>test</p>'},
    ];
 
    tests.forEach((test) => {

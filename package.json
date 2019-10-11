@@ -14,7 +14,7 @@
     "url": "https://github.com/locize/vue-i18n-translation-parser"
   },
   "dependencies": {
-    "html-parse-stringify2": "2.0.1"
+    "html-parse-stringify2": "github:locize/html-parse-stringify2"
   },
   "devDependencies": {
     "babel-cli": "6.18.0",
