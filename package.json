@@ -1,6 +1,6 @@
 {
   "name": "vue-i18n-translation-parser",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "parses vue-i18n translations to AST",
   "main": "./index.js",
   "jsnext:main": "dist/es/index.js",
