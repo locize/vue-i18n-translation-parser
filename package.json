@@ -27,7 +27,7 @@
     "browserify-istanbul": "2.0.0",
     "chai": "3.5.0",
     "coveralls": "2.11.15",
-    "eslint": "3.13.0",
+    "eslint": "4.18.2",
     "eslint-config-airbnb": "13.0.0",
     "istanbul": "gotwarlost/istanbul#source-map",
     "json5": "0.5.1",
